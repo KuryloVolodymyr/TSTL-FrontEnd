@@ -1,0 +1,133 @@
+.TestingProcess {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: auto;
+    width: 90%;
+    min-width: 800px; /*needs update*/
+    min-height: 500px; /*needs update*/
+}
+
+.ResultsBorder {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    min-width: 800px; /*needs update*/
+    min-height: 500px; /*needs update*/
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.InnerResults {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: auto;
+    width: 60%;
+    min-width: 420px; /*needs update*/
+    min-height: 180px; /*needs update*/
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.detailNumberUserSays {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 55%;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.detailNumberIntents {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.BigText {
+    margin: 3%;
+    font-size: 200%;
+    font-weight: bold;
+    color: #1658F3;
+}
+
+.SmallText {
+    margin: 3%;
+    font-size: 120%;
+}
+
+.GreyText {
+    font-size: inherit;
+    font-weight: lighter;
+    color: #B0B2C0;
+}
+
+.ProgressBars {
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+
+.progressBar {
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+    margin-top: 10%;
+}
+
+.successfulBar {
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+.failedBar {
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+button.back {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    background: #1658F3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Results {
+    position: relative;
+    font-size: 100%;
+    text-align: left;
+    height: auto;
+    width: 100%;
+}
+
+.Percentage {
+    position: relative;
+    font-size: 100%;
+    height: auto;
+    width: 100%;
+    text-align: right;
+}

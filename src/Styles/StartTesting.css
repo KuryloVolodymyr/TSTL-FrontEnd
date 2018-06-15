@@ -1,0 +1,28 @@
+.StartTesting{
+    position: fixed;
+    top: 20%;
+    left: 29%;
+    height: auto;
+    width: 42%;
+    min-width: 420px;
+    min-height: 180px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    text-align: center;    
+    background-color: #FFFFFF;
+}
+
+.TestingStart{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    height: 90%;
+    width: 80%;
+    font-size: 20px;
+}
+
+.Picker{
+    height: auto;
+    width: auto;
+}
+

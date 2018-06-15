@@ -1,0 +1,68 @@
+#root {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-color: #F7FAFE;
+    overflow: auto;
+}
+
+.App{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato';
+}
+
+.TitleText{
+    margin: 3%;
+    font-size: 300%;
+    font-weight: bold;
+
+    min-width: 320px;
+    min-height: 55px;
+}
+
+
+
+button.start{
+        border-radius: 10px;
+        border: none;
+        height: 50px;
+        width: 120px;
+        margin: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        color : white;
+        background: #1658F3;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+button.start:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+button.delay{
+        border-radius: 10px;
+        border: none;
+        height: 50px;
+        width: 120px;
+        margin: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        color: blue;
+        background: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+button.delay:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+  
